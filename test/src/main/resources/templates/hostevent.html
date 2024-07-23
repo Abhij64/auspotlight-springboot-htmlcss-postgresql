@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="/css/style1.css">
+</head>
+<body>
+<div class="dashboard-container">
+    <h1 class="dashboard-title">Dashboard</h1>
+    <a href="/" class="back-button" onclick="goBack()">Back</a>
+
+    <div class="navbar-pane">
+        <div class="dashboard-option">
+            <a href="dashboard" onclick="showMyEvents()">My Events</a>
+        </div>
+        <div class="dashboard-option">
+            <a href="hostevent">Host an Event</a>
+        </div>
+    </div>
+</div>
+<div class="event-form-container">
+    <h2>Event Registration Form</h2>
+
+    <form class="event-form" action="/hostevent" method="post" enctype="multipart/form-data">
+        <label for="title">Event Title:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="type">Event Type:</label>
+        <input type="text" id="type" name="type" required>
+
+        <label for="image">Event Image:</label>
+        <input type="text" id="image" name="image" accept="image/*" required>
+
+        <label for="venue">Venue:</label>
+        <input type="text" id="venue" name="venue" required>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price" required>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>
+

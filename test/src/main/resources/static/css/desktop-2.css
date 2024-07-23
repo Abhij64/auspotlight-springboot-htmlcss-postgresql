@@ -1,0 +1,483 @@
+.desktop-2{
+  margin: 0px;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #6933e6, #e63544);
+  width: 1440px;
+  height: 1024px;
+}
+.au-spotlights1 {
+  margin: 0;
+  position: absolute;
+  top: 436px;
+  left: 54px;
+  font-size: var(--font-size-77xl);
+  font-weight: 400;
+  font-family: inherit;
+  color: #d89818;
+}
+.frame-item {
+  position: absolute;
+  top: 291px;
+  left: 732px;
+  width: 721px;
+  height: 520px;
+  object-fit: cover;
+}
+.illuminating-the-vibrancy1 {
+  font-size: var(--font-size-17xl);
+  color: #fdd647;
+}
+.illuminating-the-vibrancy-container1 {
+  margin: 0;
+  position: absolute;
+  top: 523px;
+  left: 54px;
+  font-size: var(--font-size-77xl);
+  color: var(--color-black);
+}
+.frame-inner,
+.welcome-to {
+  position: absolute;
+  top: 339px;
+}
+.welcome-to {
+  margin: 0;
+  left: 213px;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #5e3402;
+}
+.frame-inner {
+  left: 831px;
+  width: 524px;
+  height: 356px;
+  object-fit: cover;
+}
+.frame-child1 {
+  position: absolute;
+  top: 406px;
+  left: 866px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  width: 465px;
+  height: 30px;
+}
+.search-events {
+  margin: 0;
+  position: absolute;
+  top: 413px;
+  left: 876px;
+  font-size: 16px;
+  color: var(--color-black);
+}
+.events1,
+.forums1 {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  left: 665px;
+  color: inherit;
+  text-align: left;
+}
+.forums1 {
+  left: 812px;
+}
+.about-us1,
+.frame-child2 {
+  position: absolute;
+  top: 52px;
+}
+.about-us1 {
+  text-decoration: none;
+  left: 1000px;
+  color: inherit;
+  text-align: left;
+}
+.frame-child2 {
+  left: 1200px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkgoldenrod-200);
+  width: 243px;
+  height: 49px;
+}
+.home1,
+.sign-inregister1 {
+  position: absolute;
+  text-align: left;
+}
+.sign-inregister1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 55px;
+  left: 1216px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-times-new-roman);
+  color: var(--color-white);
+  display: inline-block;
+}
+.home1 {
+  text-decoration: none;
+  top: 50px;
+  left: 524px;
+  font-weight: 700;
+  color: var(--color-black);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.one-stop-for {
+  display: block;
+}
+.one-stop-for-container {
+  margin: 0;
+  position: absolute;
+  top: 477px;
+  left: 941px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 296px;
+}
+.anurag-university-1-1-removebg-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 428px;
+  height: 165px;
+  object-fit: cover;
+}
+.desktop-2,
+.frame {
+  height: 1024px;
+  overflow: hidden;
+}
+.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient( #6933e6, #e63544);
+  width: 100%;
+  overflow-x: hidden;
+}
+.desktop-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray);
+  font-family: var(--font-times-new-roman);
+}
+.toggle_btn {
+  color: var(--color-black);
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  z-index: 9999;
+  top: 60px;
+  right: 40px;
+  display: none;
+}
+
+.dropdown_menu {
+  position: absolute;
+  right: 40px;
+  top: 60px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  z-index: 5;
+  height: 180px;
+  display: none;
+}
+
+.dropdown_menu.open {
+  height: 180px;
+}
+
+.dropdown_menu li {
+  margin: 100px;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  z-index: 10;
+}
+.home1:hover,
+.about-us1:hover,
+.forums1:hover,
+.events1:hover{
+  color: #fdd647;
+}
+
+/* Existing media query for tablets and smaller screens */
+/* Existing media query for tablets and smaller screens */
+@media (max-width: 992px) {
+  .navbar-links,
+  .navbar .toggle_btn {
+    display: none;
+  }
+
+  .navbar .toggle_btn {
+    display: block;
+  }
+
+  .dropdown_menu.open {
+    display: block;
+  }
+}
+
+/* New media query for mobile screens */
+@media (max-width: 576px) {
+  .dropdown_menu {
+    left: 2rem;
+    width: unset;
+  }
+
+  /* Adjust styles for smaller screens */
+  .toggle_btn {
+    display: block;
+  }
+
+  .dropdown_menu.open {
+    display: block;
+  }
+
+  /* Adjust font size and other styles for better visibility on smaller screens */
+  .au-spotlights1 {
+    font-size: 36px;
+    top: 20%;
+  }
+
+  .illuminating-the-vibrancy-container1 {
+    font-size: 14px;
+    top: 50%;
+  }
+
+  .welcome-to {
+    font-size: 36px;
+    top: 40%;
+  }
+
+  .search-events {
+    font-size: 14px;
+    top: 60%;
+  }
+
+  .events1,
+  .forums1,
+  .about-us1,
+  .sign-inregister1,
+  .home1 {
+    font-size: 14px;
+    top: 70%;
+  }
+
+  .one-stop-for-container {
+    font-size: 14px;
+    top: 80%;
+  }
+}
+
+
+.dropdown_menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown_menu li {
+  padding: 20px;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  cursor: pointer;
+  color: black;
+  margin-top: 100px;
+}
+.dropdown_menu li:nth-child(1){
+  margin-top: 0px;
+}
+.dropdown_menu li:nth-child(2){
+  margin-top: 30px;
+}
+.dropdown_menu li:nth-child(3){
+  margin-top: 60px;
+}
+.dropdown_menu li:hover {
+  font-weight: bold;
+}
+
+.dropdown_menu li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dropdown_menu li:nth-child(4){
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: medium;
+}
+.dropdown_menu li:nth-child(5){
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: small;
+}
+.dropdown_menu li:hover {
+  font-weight: bold;
+  color: #fdd647;
+}
+/* CSS for event container */
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px; /* Adjust spacing between events */
+}
+
+.event {
+  width: calc(33.33% - 20px); /* Adjust width of each event box */
+  margin-bottom: 20px;
+  background-color: #f0f0f0; /* Adjust background color */
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.event-image {
+  width: 100%;
+  height: auto;
+}
+
+.event-date {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.7); /* Adjust background color */
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000; /* Adjust text color */
+}
+
+.event-title {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.event-details {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.event:hover {
+  transform: scale(1.05); /* Adjust scaling on hover */
+  box-shadow: 0 0 20px rgba(55, 0, 255, 0.1); /* Add shadow on hover */
+}
+
+.Events-Header {
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff; /* Adjust text color */
+  margin-top: 40px; /* Adjust top margin */
+}
+
+#events {
+  margin: 0px;
+  background: linear-gradient(180deg, #e63544, #6933e6); /* Gradient background */
+  padding: 40px 0; /* Add padding to the events section */
+}
+
+
+
+/* CSS for the About Us section */
+#about {
+  background: linear-gradient(180deg, #6933e6, #e63544); /* Match background color with the above page */
+  padding: 50px 0; /* Adjust padding as needed */
+  text-align: center; /* Center align text */
+}
+
+/* CSS for the heading */
+#about h2 {
+  font-size: 36px; /* Increase font size for the heading */
+  font-family: 'Times New Roman', serif; /* Use Times New Roman font */
+  color: #fdd647; /* Adjust font color */
+  margin-bottom: 30px; /* Add space below the heading */
+}
+
+/* CSS for the paragraph text */
+#about p {
+  font-size: 18px; /* Adjust font size */
+  line-height: 1.6; /* Adjust line height for better readability */
+  margin-bottom: 20px; /* Add space below paragraphs */
+  font-family: 'Times New Roman', serif; /* Use Times New Roman font */
+  color: #ffffff; /* Adjust font color */
+}
+.wlcmUser{
+  z-index: 1;
+  color: black;
+}
+/* Event header styling */
+.event-header {
+  position: relative;
+}
+
+/* Event type styling */
+.event-type {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff9800; /* Example background color */
+  color: #fff; /* Example text color */
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Register button styling */
+.register-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Covering the entire width */
+    background-color: #2196f3; /* Example background color */
+    color: #fff; /* Example text color */
+    padding: 15px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 0; /* No rounded corners */
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.register-button:hover {
+  background-color: #0d47a1; /* Example hover background color */
+}
+
+/* Event details styling */
+.event-details {
+  margin-top: 20px;
+}
+
+
+/* Rest of your existing CSS styles */
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/style1.css">
+</head>
+<body>
+
+<div class="dashboard-container">
+    <h1 class="dashboard-title">Dashboard</h1>
+    <a href="/" class="back-button" onclick="goBack()">Back</a>
+
+    <div class="navbar-pane">
+        <div class="dashboard-option">
+            <a href="#" onclick="showMyEvents()">My Events</a>
+        </div>
+        <div class="dashboard-option">
+            <a href="hostevent">Host an Event</a>
+        </div>
+    </div>
+</div>
+<!-- My Events section -->
+<div class="my-events-container">
+<div id="my-events">
+    <h1 class="Events-Header">My Events</h1>
+    <div class="event-list">
+        <!-- Events will be added here dynamically -->
+    </div>
+</div>
+</div>
+
+
+<script src="/js/script2.js"></script>
+
+
+</body>
+</html>
